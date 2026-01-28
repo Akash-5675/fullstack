@@ -10,9 +10,16 @@
     align-items: center;
 }
 
+/* .intro3{
+    font-family: "Edu SA Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+} */
+
 .image1{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -22,6 +29,20 @@
 
 body{
   margin: 0 40px; /* 0px top/bottom margin, 40px left/right margin */
+  font-family: "Edu SA Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+    font-size: 16px;   /* 👈 ADD THIS */
+  line-height: 1.5;  /* 👈 ADD THIS */
+
+  background-image: url("background2.jpg"); /* Specify the image path */
+  background-repeat: no-repeat;            /* Prevent the image from repeating */
+  background-size: cover;                  /* Scale the image to cover the entire container */
+  background-position: center;             /* Center the image on the page */
+  background-attachment: fixed;            /* Fix the background image position during scroll (optional parallax effect) */
+  background-color: #cccccc;               /* Fallback background color */
 
 }
 
