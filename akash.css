@@ -1,0 +1,41 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(67, 67, 73);
+    border-radius: 10%;
+}
+
+body{
+  margin: 0 40px; /* 0px top/bottom margin, 40px left/right margin */
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center; /* Horizontally centers the items */
+    align-items: center; /* Vertically centers the items (if height is defined) */
+    gap: 10px; /* Adds space between the items */
+    /* Add a height if vertical centering is needed */
+    height: 100px;
+    border: 1px solid black;
+
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
